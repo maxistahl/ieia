@@ -1,0 +1,34 @@
+
+
+footer{
+    font-family:Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+    width:1440px;
+    height:600px;
+    left:0px;
+    bottom: -120px;
+    background: #23262E;
+}
+#siguenos{
+    font-family:Open Sans;
+    text-transform: uppercase;
+    width: 117px;
+    height: 25px;
+    left: 661px;
+    top: 6670px;
+    color: #FFFFFF;
+}
+#copyrigth {
+    font-family:Open Sans;
+    width: 630px;
+    height: 25px;
+    left: 423px;
+    top: 6906px;
+    text-transform: uppercase;
+    color:#C4C4C44F;
+} 
