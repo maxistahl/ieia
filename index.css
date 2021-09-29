@@ -1,34 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #B2B2B2;
+}
 
+.description-volumen{
+    background-image: url(images/88425565-traditional-french-breakfast-menu-background-cup-of-coffee-muesli-and-croissants-on-wooden-table-top.png);
+    background-size: 720px;
+    background-repeat: no-repeat;
+    padding-top: 218px;
+    margin-bottom: 0px;
+}
 
-footer{
+.description-volumen button{
+        width: 200px;
+        height: 48px;
+        background-color: #A213D4;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 4px
+    
+
+}
+
+.description-volumen h3 + p{
+
     font-family:Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-    position: absolute;
-    width:1440px;
-    height:600px;
-    left:0px;
-    bottom: -120px;
     background: #23262E;
-}
-#siguenos{
-    font-family:Open Sans;
     text-transform: uppercase;
+
+
+}
+.footer{
+    font-family:Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background: #23262E;
+    text-transform: uppercase;
+    padding-top: 114px;
+}
+.footer h3{
+    color: #FFFFFF;
     width: 117px;
     height: 25px;
-    left: 661px;
-    top: 6670px;
-    color: #FFFFFF;
+    /*padding top: 114px; */
+
 }
-#copyrigth {
+
+.icons{
+
+}
+
+.footer p {
+    color: #C4C4C4 31%;
     font-family:Open Sans;
     width: 630px;
     height: 25px;
-    left: 423px;
-    top: 6906px;
-    text-transform: uppercase;
-    color:#C4C4C44F;
+    
+
 } 
