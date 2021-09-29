@@ -1,49 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #B2B2B2;
-}
+
 
 .description-volumen{
-    background-image: url(images/88425565-traditional-french-breakfast-menu-background-cup-of-coffee-muesli-and-croissants-on-wooden-table-top.png);
-    background-size: 720px;
-    background-repeat: no-repeat;
-    padding-top: 218px;
-    margin-bottom: 0px;
-}
-
-.description-volumen button{
-        width: 200px;
-        height: 48px;
-        background-color: #A213D4;
-        font-family: 'Archivo';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 20px;
-        text-align: center;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        border-radius: 4px
     
-
-}
-
-.description-volumen h3 + p{
-
+    background-image: url(images/88425565-traditional-french-breakfast-menu-background-cup-of-coffee-muesli-and-croissants-on-wooden-table-top.png);
+    background-size: 1440px 957px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    padding-top: 218px;
+    padding-left: 191px;
+    margin-bottom: 14px;
     font-family:Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    text-align: center;
-    background: #23262E;
+    
     text-transform: uppercase;
+}
+.description-volumen h2{
+    font-family:Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 5px;
+}
+.marked {
+    color: #A213D4;
+}
+.button{
+    width: 200px;
+    height: 48px;
+    background-color: #A213D4;
+    font-family: Open Sans ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 4px
 
 
 }
-.footer{
+
+.important {
+
+  
+
+
+}
+
+footer{
     font-family:Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -51,14 +62,15 @@
     line-height: 25px;
     text-align: center;
     background: #23262E;
+    background-position: left;
     text-transform: uppercase;
     padding-top: 114px;
 }
-.footer h3{
+footer,h3{
     color: #FFFFFF;
     width: 117px;
     height: 25px;
-    /*padding top: 114px; */
+    padding top: 114px; 
 
 }
 
@@ -66,7 +78,7 @@
 
 }
 
-.footer p {
+footer p {
     color: #C4C4C4 31%;
     font-family:Open Sans;
     width: 630px;
