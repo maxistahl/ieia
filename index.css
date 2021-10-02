@@ -1,88 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px; ;
+}
 
 .description-volumen{
-    
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
     background-image: url(images/88425565-traditional-french-breakfast-menu-background-cup-of-coffee-muesli-and-croissants-on-wooden-table-top.png);
-    background-size: 1440px 957px;
+    min-height: 957px;
     background-repeat: no-repeat;
-    background-position: left;
-    background-attachment: fixed;
-    padding-top: 218px;
-    padding-left: 191px;
-    margin-bottom: 14px;
-    font-family:Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    
-    text-transform: uppercase;
+   
+
 }
+.block-text{
+    position: absolute;
+    top: 203px;
+    left: 183px;
+}
+
+
 .description-volumen h2{
-    font-family:Josefin Sans;
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 48px;
-    margin: 5px;
+    line-height: 48px; 
+    color: #23262E;
+    text-transform: uppercase;
+    margin-bottom: 26px;
 }
-.marked {
+
+.description-volumen h2 span{
     color: #A213D4;
 }
 .button{
-    width: 200px;
-    height: 48px;
     background-color: #A213D4;
-    font-family: Open Sans ;
-    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    font-size: 18px;
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #FFFFFF;
-    border-radius: 4px
-
-
-}
-
-.important {
-
-  
-
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 35px;
+    margin-top: 10px;
 
 }
+.volume{
+    position: absolute;
+    width: 338px;
+    top: 490px;
+    left: 183px; 
 
+}
 footer{
-    font-family:Open Sans;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    background-color: #23262E;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
     text-align: center;
-    background: #23262E;
-    background-position: left;
-    text-transform: uppercase;
     padding-top: 114px;
+    padding-bottom: 140px;
+    font-size: 18px;
+    line-height: 25px; ;
 }
-footer,h3{
+
+footer h3{
+    text-align: center;
     color: #FFFFFF;
-    width: 117px;
-    height: 25px;
-    padding top: 114px; 
-
+    margin-bottom: 50px;
+    
 }
 
-.icons{
+.instagram-page{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.icons-social{
+    margin-bottom:150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 footer p {
-    color: #C4C4C4 31%;
-    font-family:Open Sans;
-    width: 630px;
-    height: 25px;
     
-
+    color: rgba(196, 196, 196, 0.31);
+    text-align: center;
+    
 } 
+
+@media (max-width: 480px) {
+    .description-volumen {
+        background-size: cover;
+        background-position: 70% bottom;
+    }
+    .volume {
+        left: 20px;
+        width: 50%;
+    }
+    .block-text {
+        left: 20px;
+    }
+    .description-volumen h2 {
+        font-size: 38px;
+        line-height: 1;
+        margin-bottom: 14px;
+    }
+    footer p {
+        font-size: 14px;
+        padding: 0 24px;
+    }
+
+}
