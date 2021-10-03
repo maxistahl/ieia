@@ -1,0 +1,65 @@
+#precision {
+    width: 187px;
+    height: 25px;
+    background-color:none;
+    margin-top: 20px;
+    margin-left: 150px;
+    float: left;
+}
+
+.texto1 {
+    font-family: Open ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#titulo_d4 {
+    width: 500px;
+    height: 96px;
+    margin-left: 150px;
+    clear: both;
+    background-color: none;
+}
+
+.titulo_d4 {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #23262E;
+}
+
+#texto_d4 {
+    width: 401px;
+    height: 74px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: none;
+    clear: left;
+}
+
+.texto_d4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.imagen_d4 {
+    background: url("cabinet-maker.png");
+    height: 450px;
+    width: 700px;
+    margin-left: 500px;
+    margin-top: 17px;
+    background-size: cover;
+    background-position: bottom right;
+}
