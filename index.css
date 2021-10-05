@@ -4,8 +4,9 @@
 
   	margin: 0;
   	padding: 0;
-	  text-decoration: none;
+	
 }
+
 body{
 	background-color: #B2B2B2;
 }
@@ -33,19 +34,24 @@ body{
 
 
 }
-.florero{
-	border: 1px solid black;
-	display: flex;
-	justify-content: flex-end;
-	height: 350px;
-	
+.head a{	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#000;
+	margin-left: 28px;
 }
+
 .abf-content{
 	background-image: 
-		url("images/Buyero_2021-Sep-27_03-17-48PM-000_CustomizedView19866738920\ 1.png ");			  
-	background-repeat: no-repeat;
+		url("images/Img\ _bg.jpg");			  
+	background-repeat: no-repeat;	
 	background-position: center right;
-	min-height: 650px;
+	min-height: 700px;
 
 }
 
