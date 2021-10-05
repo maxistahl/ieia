@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Josefin+Sans&family=Open+Sans&display=swap');
+
+* {
+
+  	margin: 0;
+  	padding: 0;
+	  text-decoration: none;
+}
+body{
+	background-color: #B2B2B2;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.head{
+	width: 100%;
+    margin-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+
+}
+.menu{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+
+
+}
+.florero{
+	border: 1px solid black;
+	display: flex;
+	justify-content: flex-end;
+	height: 350px;
+	
+}
+.abf-content{
+	background-image: 
+		url("images/Buyero_2021-Sep-27_03-17-48PM-000_CustomizedView19866738920\ 1.png ");			  
+	background-repeat: no-repeat;
+	background-position: center right;
+	min-height: 650px;
+
+}
+
+.titulo{
+margin-bottom: 16px;
+
+}
+.titulo p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;	
+	line-height: 25px;
+}
+.titulo h1{
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 64px;
+}
+.Iconos{
+	width: 150px;
+	margin-bottom: 18px;
+}
+
+.bottom{
+	width: 508px;
+	height: 50px ;
+	margin-bottom: 8px;
+
+}
+.exclusivo{
+	font-weight: bold;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+
+}
+.combinalo{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+}
+.button{
+    background-color: #A213D4;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 35px;
+
+}
