@@ -90,3 +90,36 @@ body{
 
     color: #000000;
 }
+
+.txt_title2{
+    width: 200px;
+    height: 25px;
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.txt_h2{
+    width: 306px;
+    height: 48px;
+    font-family: 'Josefin Sans' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.back-img{
+    background-image: url("img/logo_wifi.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 500px;
+}
