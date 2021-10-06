@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Josefin+Sans&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans&display=swap');
 
 * {
-
-  	margin: 0;
+	margin: 0;
   	padding: 0;
-	
 }
 
 body{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
 	background-color: #B2B2B2;
+	font-style: normal;
+	font-weight: normal;
 }
 
 .wrapper{
-	width: 100%;
+    width: 100%;
 	max-width: 1140px;
 	margin: 0 auto;
 }
@@ -24,20 +28,9 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-top: 32px;
-
 }
-.menu{
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
 
-
-}
 .head a{	
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
 	line-height: 25px;
 	text-align: center;
 	text-transform: uppercase;
@@ -56,19 +49,13 @@ body{
 }
 
 .titulo{
-margin-bottom: 16px;
-
+	margin-bottom: 16px;
 }
 .titulo p {
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;	
 	line-height: 25px;
 }
 .titulo h1{
-	font-family: Josefin Sans;
-	font-style: normal;
+	font-family: 'Josefin Sans';
 	font-weight: bold;
 	font-size: 64px;
 	line-height: 64px;
@@ -82,30 +69,17 @@ margin-bottom: 16px;
 	width: 508px;
 	height: 50px ;
 	margin-bottom: 8px;
-
 }
 .exclusivo{
 	font-weight: bold;
-	font-family: Open Sans;
-	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
 	line-height: 25px;
-
 }
 .combinalo{
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
 	line-height: 25px;
 }
 .button{
     background-color: #A213D4;
-    font-family: 'Archivo';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.08em;
@@ -115,5 +89,90 @@ margin-bottom: 16px;
     text-decoration: none;
     display: inline-block;
     padding: 10px 35px;
+}
+.description-3, .description-4{
+	background-color: #FFFFFF;
+	padding: 90px 0;
+}
+.description-img{
+    background-image: url("images/cabinet-maker.jpg");			  
+    background-repeat: no-repeat;	
+    background-position: center right;
+    min-height: 800px;
+}
 
+.txt_title{
+    width: 187px;
+    height: 25px;
+    left: 150px;
+    bottom: 2187px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.txt_2{
+    width: 455px;
+    height: 96px;
+    left: 150px;
+    bottom: 2087px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #23262E;
+}
+
+.txt_pink{
+    width: 306px;
+    height: 48px;
+    left: 150px;
+    bottom: 2804px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #A213D4;
+}
+
+.text_info{
+    width: 401px;
+    height: 74px;
+    left: 150px;
+    bottom: 1953px;
+    margin-top: 60px;
+    font-family: 'Open Sans' sans-serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.txt_title2{
+    width: 200px;
+    height: 25px;
+    font-family: 'Open Sans' sans-serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.txt_h2{
+    width: 306px;
+    height: 48px;
+    font-family: 'Josefin Sans' sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.back-img{
+    background-image: url("images/logo_wifi.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 500px;
 }
