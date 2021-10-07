@@ -177,25 +177,22 @@ body{
     min-height: 500px;
 }
 /* CSS SEE WHAT WE DO */
+.see-what-we-do{
+    background-image: url(./images/swwd-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .wrapper-swwd{
-    width: 100%;
-    max-width: 1140px;
-	margin: 0 auto ;
+    position: relative;
+    min-height: 100vh;
 }
-.top-page-design{
-    background-image: url(./images/swwd-superior.jpg);
-    min-height: 213px;
+.promo-box{
+    position: absolute;
+    top: 60vh;
+    left: 4vw;
+    max-width: 80vw;
 }
-.mid-page-design{
-    background-image: url(./images/swwd-middle.jpg);
-    min-height: 372px;
-}
-.bot-page-design{
-    background-image: url(./images/swwd-inferior.jpg);
-    min-height: 816px;
-
-}
-    
 .promo-text{
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -203,7 +200,6 @@ body{
     font-size: 48px;
     line-height: 48px;
     text-transform: uppercase;
-    padding: 271px 269px 0px
 }
 .promo-text-white{
     color:#FFFFFF
@@ -215,14 +211,6 @@ body{
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
-    padding: 34px 269px 0px;
     margin-bottom: 14px;
-}
-.yt-logo{
-    padding: 0px 40px 55px;
-    background-image: url(./images/yt-logo.png);
-    background-repeat: no-repeat;
-    margin-left: 269px;
-    display: inline-block;
 }
 
