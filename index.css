@@ -11,15 +11,28 @@ body{
     line-height: 25px; ;
 }
 
+.description-1{
+    
+    max-width: 1440px;
+    background-color:white;
+    margin-bottom: 500px;
+    background-image:url("images/Group\ 1.png");			  
+    background-repeat: no-repeat;	
+    background-position: bottom right;
+    min-height: 700px;
+}
+
+.group-1{
+
+}
+
 .description-volumen{
     width: 100%;
     max-width: 1440px;
     position: relative;
     background-image: url(images/88425565-traditional-french-breakfast-menu-background-cup-of-coffee-muesli-and-croissants-on-wooden-table-top.png);
-    min-height: 957px;
+    min-height: 100vh;
     background-repeat: no-repeat;
-   
-
 }
 .block-text{
     position: absolute;
@@ -28,7 +41,7 @@ body{
 }
 
 
-.description-volumen h2{
+h2{
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -39,9 +52,13 @@ body{
     margin-bottom: 26px;
 }
 
-.description-volumen h2 span{
+h2 span{
     color: #A213D4;
 }
+
+
+
+
 .button{
     background-color: #A213D4;
     font-family: 'Open Sans', sans-serif;
