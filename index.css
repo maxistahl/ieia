@@ -176,3 +176,53 @@ body{
     background-position: bottom right;
     min-height: 500px;
 }
+/* CSS SEE WHAT WE DO */
+.wrapper-swwd{
+    width: 100%;
+    max-width: 1140px;
+	margin: 0 auto ;
+}
+.top-page-design{
+    background-image: url(./images/swwd-superior.jpg);
+    min-height: 213px;
+}
+.mid-page-design{
+    background-image: url(./images/swwd-middle.jpg);
+    min-height: 372px;
+}
+.bot-page-design{
+    background-image: url(./images/swwd-inferior.jpg);
+    min-height: 816px;
+
+}
+    
+.promo-text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding: 271px 269px 0px
+}
+.promo-text-white{
+    color:#FFFFFF
+}
+.promo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 34px 269px 0px;
+    margin-bottom: 14px;
+}
+.yt-logo{
+    padding: 0px 40px 55px;
+    background-image: url(./images/yt-logo.png);
+    background-repeat: no-repeat;
+    margin-left: 269px;
+    display: inline-block;
+}
+
