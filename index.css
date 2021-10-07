@@ -90,7 +90,7 @@ body{
     display: inline-block;
     padding: 10px 35px;
 }
-.description-3, .description-4{
+.description-2, .description-3, .description-4{
 	background-color: #FFFFFF;
 	padding: 90px 0;
 }
@@ -175,4 +175,22 @@ body{
     background-repeat: no-repeat;
     background-position: bottom right;
     min-height: 500px;
+}
+
+.txt_d2{
+    width: 505px;
+    height: 96px;
+    font-family: 'Josefin Sans' sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.description-2-img{
+    background-image: url("images/Auro3D.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 600px;
 }
