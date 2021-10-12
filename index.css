@@ -90,7 +90,7 @@ body{
     display: inline-block;
     padding: 10px 35px;
 }
-.description-3, .description-4{
+.description-2, .description-3, .description-4{
 	background-color: #FFFFFF;
 	padding: 90px 0;
 }
@@ -114,35 +114,20 @@ body{
 
 .txt_2{
     width: 455px;
-    height: 96px;
-    left: 150px;
-    bottom: 2087px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     font-size: 48px;
-    line-height: 48px;
+    line-height: 1;
     text-transform: uppercase;
     color: #23262E;
 }
 
 .txt_pink{
-    width: 306px;
-    height: 48px;
-    left: 150px;
-    bottom: 2804px;
-    font-family:'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 48px;
-    text-transform: uppercase;
     color: #A213D4;
 }
 
 .text_info{
     width: 401px;
-    height: 74px;
-    left: 150px;
-    bottom: 1953px;
     margin-top: 60px;
     font-family: 'Open Sans' sans-serif;
     line-height: 25px;
@@ -192,6 +177,23 @@ body{
     top: 60vh;
     left: 4vw;
     max-width: 80vw;
+}
+.txt_d2{
+    width: 505px;
+    height: 96px;
+    font-family: 'Josefin Sans';
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.description-2-img{
+    background-image: url("images/Auro3D.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 600px;
 }
 .promo-text{
     font-family: 'Josefin Sans';
