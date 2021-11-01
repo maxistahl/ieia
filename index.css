@@ -1,5 +1,224 @@
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+  	padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+	background-color: #B2B2B2;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.wrapper{
+    width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.head{
+	width: 100%;
+    margin-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.head a{	
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#000;
+	margin-left: 28px;
+}
+
+.abf-content{
+	background-image: 
+		url("images/Img\ _bg.jpg");			  
+	background-repeat: no-repeat;	
+	background-position: center right;
+	min-height: 700px;
+
+}
+
+.titulo{
+	margin-bottom: 16px;
+}
+.titulo p {
+	line-height: 25px;
+}
+.titulo h1{
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 64px;
+}
+.Iconos{
+	width: 150px;
+	margin-bottom: 18px;
+}
+
+.bottom{
+	width: 508px;
+	height: 50px ;
+	margin-bottom: 8px;
+}
+.exclusivo{
+	font-weight: bold;
+	font-weight: 600;
+	line-height: 25px;
+}
+.combinalo{
+	line-height: 25px;
+}
+.button{
+    background-color: #A213D4;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 35px;
+}
+.description-2, .description-3, .description-4{
+	background-color: #FFFFFF;
+	padding: 90px 0;
+}
+.description-img{
+    background-image: url("images/cabinet-maker.jpg");			  
+    background-repeat: no-repeat;	
+    background-position: center right;
+    min-height: 800px;
+}
+
+.txt_title{
+    width: 187px;
+    height: 25px;
+    left: 150px;
+    bottom: 2187px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.txt_2{
+    width: 455px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #23262E;
+}
+
+.txt_pink{
+    color: #A213D4;
+}
+
+.text_info{
+    width: 401px;
+    margin-top: 60px;
+    font-family: 'Open Sans' sans-serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.txt_title2{
+    width: 200px;
+    height: 25px;
+    font-family: 'Open Sans' sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 25px;
+}
+
+.txt_h2{
+    width: 306px;
+    height: 48px;
+    font-family: 'Josefin Sans' sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.back-img{
+    background-image: url("images/logo_wifi.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 500px;
+}
+/* CSS SEE WHAT WE DO */
+.see-what-we-do{
+    background-image: url(./images/swwd-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.wrapper-swwd{
+    position: relative;
+    min-height: 100vh;
+}
+.promo-box{
+    position: absolute;
+    top: 60vh;
+    left: 4vw;
+    max-width: 80vw;
+}
+.txt_d2{
+    width: 505px;
+    height: 96px;
+    font-family: 'Josefin Sans';
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.description-2-img{
+    background-image: url("images/Auro3D.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 600px;
+}
+.promo-text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.promo-text-white{
+    color:#FFFFFF
+}
+.promo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
 footer{
     font-family:Open Sans;
     font-style: normal;
