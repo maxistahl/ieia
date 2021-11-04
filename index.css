@@ -15,11 +15,12 @@ body{
 }
 
 /*above-the-fold*/
- 
+
 .above-the-fold{
 	background-color: #B2B2B2;
 
 }
+
 .wrapper{
     width: 100%;
 	max-width: 1140px;
@@ -65,7 +66,8 @@ body{
 	font-weight: bold;
 	font-size: 64px;
 	line-height: 64px;
-}    
+} 
+
 .Iconos{
 	width: 150px;
 	margin-bottom: 18px;
@@ -76,14 +78,17 @@ body{
 	height: 50px ;
 	margin-bottom: 8px;
 }    
+
 .exclusivo{
     font-weight: bold;
 	font-weight: 600;
 	line-height: 25px;
-}    
+}  
+
 .combinalo{
     line-height: 25px;
-}    
+}  
+
 .button{
     background-color: #A213D4;
     line-height: 20px;
@@ -97,19 +102,24 @@ body{
     padding: 10px 35px;
 }    
 
-/* CSS SEE WHAT WE DO */
+/* CSS SEE WHAT WE DO  */
 
 .see-what-we-do{
+
     background-image: url(./images/swwd-back.jpg);
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+    min-height: 1400px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 100px;
+    padding-top: 350px;
 }
+
 .wrapper-swwd{
     position: relative;
     min-height: 100vh;
 }
+
 .promo-box{
     position: absolute;
     top: 60vh;
@@ -125,9 +135,11 @@ body{
     line-height: 48px;
     text-transform: uppercase;
 }
+
 .promo-text-white{
     color:#FFFFFF
 }
+
 .promo{
     font-family: 'Open Sans';
     font-style: normal;
@@ -137,9 +149,6 @@ body{
     text-transform: uppercase;
     margin-bottom: 14px;
 }
-
-
-
 /* decripcion 1,2,3,4*/
 
 .description{
@@ -204,7 +213,6 @@ body{
     min-height: 100vh;
     background-repeat: no-repeat;
     padding-top: 218px;
-    margin: 0px;
 }
 
 .description header img{
@@ -241,18 +249,15 @@ footer h3{
 
 .icons-social{
     margin-bottom:150px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 footer p {
     
     color: rgba(196, 196, 196, 0.31);
     text-align: center;
-    
 } 
 
 @media (max-width: 480px) {
