@@ -10,11 +10,16 @@ body{
     text-transform: uppercase;
     font-size: 18px;
     line-height: 25px;
-	background-color: #B2B2B2;
 	font-style: normal;
 	font-weight: normal;
 }
 
+/*above-the-fold*/
+ 
+.above-the-fold{
+	background-color: #B2B2B2;
+
+}
 .wrapper{
     width: 100%;
 	max-width: 1140px;
@@ -45,39 +50,40 @@ body{
 	background-repeat: no-repeat;	
 	background-position: center right;
 	min-height: 700px;
-
-}
+    
+    
+}    
 
 .titulo{
-	margin-bottom: 16px;
-}
-.titulo p {
-	line-height: 25px;
-}
+    margin-bottom: 16px;
+ 
+    line-height: 25px;
+}  
+
 .titulo h1{
-	font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans';
 	font-weight: bold;
 	font-size: 64px;
 	line-height: 64px;
-}
+}    
 .Iconos{
 	width: 150px;
 	margin-bottom: 18px;
-}
+}    
 
 .bottom{
 	width: 508px;
 	height: 50px ;
 	margin-bottom: 8px;
-}
+}    
 .exclusivo{
-	font-weight: bold;
+    font-weight: bold;
 	font-weight: 600;
 	line-height: 25px;
-}
+}    
 .combinalo{
-	line-height: 25px;
-}
+    line-height: 25px;
+}    
 .button{
     background-color: #A213D4;
     line-height: 20px;
@@ -89,84 +95,16 @@ body{
     text-decoration: none;
     display: inline-block;
     padding: 10px 35px;
-}
-.description-2, .description-3, .description-4{
-	background-color: #FFFFFF;
-	padding: 90px 0;
-}
-.description-img{
-    background-image: url("images/cabinet-maker.jpg");			  
-    background-repeat: no-repeat;	
-    background-position: center right;
-    min-height: 800px;
-}
+}    
 
-.txt_title{
-    width: 187px;
-    height: 25px;
-    left: 150px;
-    bottom: 2187px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 25px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.txt_2{
-    width: 455px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 1;
-    text-transform: uppercase;
-    color: #23262E;
-}
-
-.txt_pink{
-    color: #A213D4;
-}
-
-.text_info{
-    width: 401px;
-    margin-top: 60px;
-    font-family: 'Open Sans' sans-serif;
-    line-height: 25px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.txt_title2{
-    width: 200px;
-    height: 25px;
-    font-family: 'Open Sans' sans-serif;
-    text-transform: uppercase;
-    color: #000000;
-    line-height: 25px;
-}
-
-.txt_h2{
-    width: 306px;
-    height: 48px;
-    font-family: 'Josefin Sans' sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 48px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.back-img{
-    background-image: url("images/logo_wifi.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    min-height: 500px;
-}
 /* CSS SEE WHAT WE DO */
+
 .see-what-we-do{
     background-image: url(./images/swwd-back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    margin-bottom: 100px;
 }
 .wrapper-swwd{
     position: relative;
@@ -178,23 +116,7 @@ body{
     left: 4vw;
     max-width: 80vw;
 }
-.txt_d2{
-    width: 505px;
-    height: 96px;
-    font-family: 'Josefin Sans';
-    color: #000000;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 48px;
-    text-transform: uppercase;
-}
-.description-2-img{
-    background-image: url("images/Auro3D.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    min-height: 600px;
-}
+
 .promo-text{
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -218,78 +140,80 @@ body{
 
 
 
+/* decripcion 1,2,3,4*/
+
+.description{
+
+}    
+
+.description section{
+    min-height: 600px;
+    position: relative;
+    margin-bottom: 100px;
+}    
+
+.description header{
+
+}    
+.description header h2 span{
+    color: #A213D4;
+}    
+
+.description header h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #23262E;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    width: 550px;
+}    
+
+.description header h6{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 4px;
+}    
 
 
+.description header p{
+    width: 450px;
+}    
 
-.description-1{
-    width: 100%;
-    max-width: 1440px;
-    background-color:white;
-    margin-bottom: 180px;
-    background-image:url("images/Group\ 1.png");			  
-    background-repeat: no-repeat;
-    position: relative;	
-    background-position: bottom right;
-    min-height: 700px;
-}
 
-.description-volumen{
+.description img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 700px;
+}    
+
+
+/* descripcion volumen*/
+
+.volumen {
     width: 100%;
     max-width: 1440px;
     position: relative;
     background-image: url(images/88425565-traditional-french-breakfast-menu-background-cup-of-coffee-muesli-and-croissants-on-wooden-table-top.png);
     min-height: 100vh;
     background-repeat: no-repeat;
+    padding-top: 218px;
+    margin: 0px;
 }
 
-.block-text{
+.description header img{
     position: absolute;
-    top: 203px;
-    left: 183px;
-}
+    bottom: 0;
+    left: 0;
+}    
 
-
-h2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 48px; 
-    color: #23262E;
-    text-transform: uppercase;
-    margin-bottom: 26px;
-}
-
-h2 span{
-    color: #A213D4;
-}
-
-
-
-
-.button{
-    background-color: #A213D4;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 35px;
-    margin-top: 10px;
-
-}
-.volume{
-    position: absolute;
-    width: 338px;
-    top: 490px;
-    left: 183px; 
-
-}
+/*descripcion footer*/
 footer{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -353,4 +277,5 @@ footer p {
         padding: 0 24px;
     }
 
-}
+
+
