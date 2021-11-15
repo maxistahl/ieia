@@ -12,6 +12,7 @@ body{
     line-height: 25px;
 	font-style: normal;
 	font-weight: normal;
+    max-width: 100%;
 }
 
 /*above-the-fold*/
@@ -46,12 +47,11 @@ body{
 }
 
 .abf-content{
-	background-image: 
-		url("images/Img\ _bg.jpg");			  
+	background-image: url("images/Img_bg.jpg");			  
 	background-repeat: no-repeat;	
 	background-position: center right;
 	min-height: 700px;
-    
+	margin: 0 auto;
     
 }    
 
@@ -108,11 +108,12 @@ body{
 
     background-image: url(./images/swwd-back.jpg);
     width: 100%;
-    max-width: 1440px;
+    background-size: cover;
     position: relative;
     min-height: 1400px;
     background-repeat: no-repeat;
-    padding-top: 350px;
+    padding-top:55%;
+    margin-bottom: 105px;
 }
 
 .wrapper-swwd{
@@ -207,13 +208,17 @@ body{
 
 .volumen {
     width: 100%;
-    max-width: 1440px;
+    background-size: cover;
     position: relative;
     background-image: url(images/88425565-traditional-french-breakfast-menu-background-cup-of-coffee-muesli-and-croissants-on-wooden-table-top.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     padding-top: 218px;
 }
+
+.description .volumen section{
+    margin-bottom: 0px;
+}    
 
 .description header img{
     position: absolute;
@@ -225,7 +230,6 @@ body{
 footer{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    max-width: 1440px;
     background-color: #23262E;
     font-style: normal;
     text-align: center;
